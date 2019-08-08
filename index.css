@@ -9,8 +9,9 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr [footer-start] 1fr [footer-end] / 1fr 1fr 1fr;
-  grid-area: footer-start / 1 / footer-end / 5;
+  grid-template-rows: [header-start] 1fr [header-end] 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: header-start / 1 / header-end / 4;
 }
 
 .grid-item {
