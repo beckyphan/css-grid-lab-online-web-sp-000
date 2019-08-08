@@ -9,7 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: 1fr 1fr 1fr [footer-start] 1fr [footer-end] / 1fr 1fr 1fr;
+  grid-template: 1fr 1fr 1fr [footer] 1fr [footer] / 1fr 1fr 1fr;
   grid-area: footer-start / 1 / footer-end / 4
 }
 
